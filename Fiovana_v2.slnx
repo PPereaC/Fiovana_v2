@@ -1,0 +1,24 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+    <Folder Name="/src/">
+        <Project Path="src/Fiovana_v2.Domain/Fiovana_v2.Domain.csproj" />
+        <Project Path="src/Fiovana_v2.Application/Fiovana_v2.Application.csproj" />
+        <Project Path="src/Fiovana_v2.EntityFrameworkCore/Fiovana_v2.EntityFrameworkCore.csproj" />
+        <Project Path="src/Fiovana_v2.Domain.Shared/Fiovana_v2.Domain.Shared.csproj" />
+        <Project Path="src/Fiovana_v2.Application.Contracts/Fiovana_v2.Application.Contracts.csproj" />
+        <Project Path="src/Fiovana_v2.HttpApi/Fiovana_v2.HttpApi.csproj" />
+        <Project Path="src/Fiovana_v2.HttpApi.Client/Fiovana_v2.HttpApi.Client.csproj" />
+        <Project Path="src/Fiovana_v2.DbMigrator/Fiovana_v2.DbMigrator.csproj" />
+        <Project Path="src/Fiovana_v2.HttpApi.Host/Fiovana_v2.HttpApi.Host.csproj" />
+        <Project Path="src/Fiovana_v2.Web.Public/Fiovana_v2.Web.Public.csproj" />
+    </Folder>
+    <Folder Name="/test/">
+        <Project Path="test/Fiovana_v2.Application.Tests/Fiovana_v2.Application.Tests.csproj" />
+        <Project Path="test/Fiovana_v2.EntityFrameworkCore.Tests/Fiovana_v2.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/Fiovana_v2.TestBase/Fiovana_v2.TestBase.csproj" />
+        <Project Path="test/Fiovana_v2.Domain.Tests/Fiovana_v2.Domain.Tests.csproj" />
+        <Project Path="test/Fiovana_v2.HttpApi.Client.ConsoleTestApp/Fiovana_v2.HttpApi.Client.ConsoleTestApp.csproj" />
+    </Folder>
+</Solution>

@@ -1,0 +1,4 @@
+image:
+  repository: "fiovana_v2/angular"
+  tag: "latest"
+  pullPolicy: IfNotPresent

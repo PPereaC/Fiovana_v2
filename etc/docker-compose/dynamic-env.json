@@ -1,0 +1,25 @@
+{
+  "production": true,
+  "application": {
+    "baseUrl":"http://localhost:4200",
+    "name": "Fiovana_v2",
+    "logoUrl": ""
+  },
+  "oAuthConfig": {
+    "issuer": "https://localhost:44388/",
+    "redirectUri": "http://localhost:4200",
+    "clientId": "Fiovana_v2_App",
+    "responseType": "code",
+    "scope": "offline_access openid profile email phone Fiovana_v2"
+  },
+  "apis": {
+    "default": {
+      "url": "https://localhost:44388",
+      "rootNamespace": "Fiovana_v2"
+    },
+    "AbpAccountPublic": {
+      "url": "https://localhost:44388",
+      "rootNamespace": "AbpAccountPublic"
+    }
+  }
+}

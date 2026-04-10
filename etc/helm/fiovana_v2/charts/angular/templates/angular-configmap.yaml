@@ -1,0 +1,30 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-{{ .Chart.Name }}-configmap
+data:
+  dynamic-env.json: |-
+    {
+        "production": "true",
+        "application": {
+            "baseUrl": "{{ include "fiovana_v2.hosts.angular" . }}",
+            "name": "Fiovana_v2",
+            "logoUrl": ""
+        },
+        "oAuthConfig": {
+            "issuer": "{{ include "fiovana_v2.hosts.httpapi" . }}",
+            "redirectUri": "{{ include "fiovana_v2.hosts.angular" . }}",
+            "requireHttps": "false",
+            "clientId": "Fiovana_v2_App",
+            "responseType": "code",
+            "scope": "offline_access Fiovana_v2",
+            "strictDiscoveryDocumentValidation": false,
+            "skipIssuerCheck": true
+        },
+        "apis": {
+            "default": {
+                "url": "{{ include "fiovana_v2.hosts.httpapi" . }}",
+                "rootNamespace": "Fiovana_v2"
+            }
+        }
+    }

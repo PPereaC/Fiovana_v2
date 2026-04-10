@@ -1,0 +1,17 @@
+volumes:
+  fiovana_v2_rabbitmq:
+networks:
+  fiovana_v2:
+    external: true
+
+services:
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3.12.7-management-alpine
+    volumes:
+      - fiovana_v2_rabbitmq:/var/lib/rabbitmq
+    networks:
+      - fiovana_v2
+    ports:
+      - "15672:15672"
+      - "5672:5672"

@@ -1,0 +1,12 @@
+networks:
+  fiovana_v2:
+    external: true
+
+services:
+  redis:
+    container_name: redis
+    image: redis:7.2.2-alpine
+    networks:
+      - fiovana_v2
+    ports:
+      - "6379:6379"

@@ -1,0 +1,148 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXTheme": {
+      "version": "5.2.0",
+      "isInstalled": true,
+      "creationTime": "04/10/2026 11:13:34 +00:00"      
+    },
+    "Volo.Abp.TextTemplateManagement": {
+      "version": "10.2.0",
+      "isInstalled": true,
+      "creationTime": "04/10/2026 11:13:34 +00:00"
+    },
+    "Volo.Chat": {
+      "version": "10.2.0",
+      "isInstalled": true,
+      "creationTime": "04/10/2026 11:13:34 +00:00" 
+    },
+    "Volo.Abp.LanguageManagement": {
+      "version": "10.2.0",
+      "isInstalled": true,
+      "creationTime": "04/10/2026 11:13:34 +00:00"
+    },
+    "Volo.FileManagement": {
+      "version": "10.2.0",
+      "isInstalled": true,
+      "creationTime": "04/10/2026 11:13:34 +00:00"
+    },
+    "Volo.Abp.OpenIddict.Pro": {
+      "version": "10.2.0",
+      "isInstalled": true,
+      "creationTime": "04/10/2026 11:13:34 +00:00"
+    },
+    "Volo.Abp.Gdpr": {
+      "version": "10.2.0",
+      "isInstalled": true,
+      "creationTime": "04/10/2026 11:13:34 +00:00"
+    },
+    "Volo.Abp.AuditLogging.Pro": {
+      "version": "10.2.0",
+      "isInstalled": true,
+      "creationTime": "04/10/2026 11:13:34 +00:00"
+    },
+    "Volo.CmsKit.Pro": {
+      "version": "10.2.0",
+      "isInstalled": true,
+      "creationTime": "04/10/2026 11:13:34 +00:00"
+    },
+    "Volo.Saas": {
+      "version": "10.2.0",
+      "isInstalled": true,
+      "creationTime": "04/10/2026 11:13:34 +00:00"
+    },
+    "Volo.Abp.Identity.Pro": {
+      "version": "10.2.0",
+      "isInstalled": true,
+      "creationTime": "04/10/2026 11:13:34 +00:00"
+    },
+    "Volo.Abp.Account.Pro": {
+      "version": "10.2.0",
+      "isInstalled": true,
+      "creationTime": "04/10/2026 11:13:34 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "10.2.0",
+      "isInstalled": true,
+      "creationTime": "04/10/2026 11:13:34 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "10.2.0",
+      "isInstalled": true,
+      "creationTime": "04/10/2026 11:13:34 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "10.2.0",
+      "isInstalled": true,
+      "creationTime": "04/10/2026 11:13:34 +00:00"
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Fiovana_v2.Application": {
+      "path": "src/Fiovana_v2.Application/Fiovana_v2.Application.abppkg",
+      "folder": "src"
+    },
+    "Fiovana_v2.Application.Tests": {
+      "path": "test/Fiovana_v2.Application.Tests/Fiovana_v2.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Fiovana_v2.Domain.Shared": {
+      "path": "src/Fiovana_v2.Domain.Shared/Fiovana_v2.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Fiovana_v2.Application.Contracts": {
+      "path": "src/Fiovana_v2.Application.Contracts/Fiovana_v2.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Fiovana_v2.HttpApi": {
+      "path": "src/Fiovana_v2.HttpApi/Fiovana_v2.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Fiovana_v2.HttpApi.Client": {
+      "path": "src/Fiovana_v2.HttpApi.Client/Fiovana_v2.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Fiovana_v2.EntityFrameworkCore.Tests": {
+      "path": "test/Fiovana_v2.EntityFrameworkCore.Tests/Fiovana_v2.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Fiovana_v2.EntityFrameworkCore": {
+      "path": "src/Fiovana_v2.EntityFrameworkCore/Fiovana_v2.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Fiovana_v2.TestBase": {
+      "path": "test/Fiovana_v2.TestBase/Fiovana_v2.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Fiovana_v2.Domain.Tests": {
+      "path": "test/Fiovana_v2.Domain.Tests/Fiovana_v2.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Fiovana_v2.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Fiovana_v2.HttpApi.Client.ConsoleTestApp/Fiovana_v2.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Fiovana_v2.DbMigrator": {
+      "path": "src/Fiovana_v2.DbMigrator/Fiovana_v2.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Fiovana_v2.HttpApi.Host": {
+      "path": "src/Fiovana_v2.HttpApi.Host/Fiovana_v2.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Fiovana_v2.Web.Public": {
+      "path": "src/Fiovana_v2.Web.Public/Fiovana_v2.Web.Public.abppkg",
+      "folder": "src"
+    },
+    "Fiovana_v2.Domain": {
+      "path": "src/Fiovana_v2.Domain/Fiovana_v2.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
