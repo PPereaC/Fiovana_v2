@@ -1,0 +1,1 @@
+// Para mapear el SHA256VO
