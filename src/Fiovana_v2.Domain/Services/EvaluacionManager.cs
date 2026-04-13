@@ -1,0 +1,1 @@
+// Lógica para validar que la suma de pesos sea 100%.
